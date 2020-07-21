@@ -40,9 +40,9 @@ export const addJmType = (name, metadataObj, addAsPrivate) => {
 
 
 export const combineMetadata = (directory = '') => {
-    const path = __dirname + '/../../' + directory;
+    const path = __dirname + '/../../../' + directory;
     requireAll({
-        dirname: path,
+        dirname: path
     });
 
     return [ combinedMetadataPublic, combinedMetadataComplete ];

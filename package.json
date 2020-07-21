@@ -1,6 +1,6 @@
 {
   "name": "join-monster-modularizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple package that helps you modularize your join-monster metadata",
   "main": "dist/index.js",
   "files": [
